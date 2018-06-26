@@ -1,0 +1,93 @@
+---
+title: "Intro to Git"
+author: "Chaya Jones"
+date: "June 2018"
+output:
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is Git REALLY and why should you care?
+
+- Version control (but you could just use Dropbox)
+- Annotated history of your project and changes along the way
+- Collaboration tool
+- Experimental lab space
+
+## Git != GitHub
+
+Git is a version control system that lives on your computer
+
+GitHub is a cloud-based hosting service that stores a copy of your work
+
+There are other services that you can use to host your Git repositories:
+
+   - Bitbucket
+   - GitLab
+  
+And there's another common version control system out there too: Subversion (aka SVN)
+
+... but we're here for Git (and GitHub)
+
+## Some Git vocab
+
+- Repository / repo: a folder with your files in it, probably a contained project
+- Commit: much like a multi-file save - this is a snapshot of the current state of your repo
+- Push: _sending_ commits to a repo
+- Pull: _getting_ commits from a repo
+- Merge: combining changes
+- Fork: make a copy of a repo
+- Clone: make a copy of a repo
+
+Wait, what?
+
+A fork is a clone and a clone is a fork, at least in GitHub - this gets more complicated semantically in the open source community, but for now we're sticking with that.
+
+## Installing Git & getting R to talk to it
+
+Jenny Bryan's instructions for this are essentially bulletproof, so I very much recommend starting there:
+
+http://happygitwithr.com/workshops.html#pre-workshop-set-up 
+
+1. Get a GitHub account
+2. Make sure you have the latest R/RStudio
+3. Install Git on your computer
+4. Make sure your computer's Git can talk to GitHub
+5. Make sure RStudio can find Git 
+
+## Git workflow
+
+- Create a repository on GitHub (in your organization if that's how you're rolling)
+- Fork that repository to your personal account
+- Copy the URL for the repository
+- Make a new project in RStudio, using version control, and paste the repo URL
+- Do your work in your personal repository
+- Commit early and often! Write yourself notes! 
+- Send your commits to your personal repository with a push
+- Merge your repository with the organization's repository by sending a pull request
+
+## My setup:
+
+[live! GitHub! demo!]
+
+## Burning it all down
+![](xkcd_git.png)
+
+## Resources
+
+http://www.happygitwithr.com 
+
+https://speakerdeck.com/alicebartlett/git-for-humans
+
+https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN 
+
+Git clients that some people love:
+
+- SourceTree: https://www.sourcetreeapp.com/ 
+- GitKraken: https://www.gitkraken.com/ 
+
+
+
